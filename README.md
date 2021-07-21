@@ -84,7 +84,7 @@ new Vue({
 })
 ~~~
 
-###src/App.vue
+### src/App.vue
 
 ~~~vue
 <template>
@@ -145,7 +145,7 @@ This component is going to be referenced in our component. It's a dependency. We
 from this component, which you see references the HelloWorld component. Vue will automatically insert that component inside this placeholder.\
 *из этого компонента, который, как мы видим, ссылается на компонент HelloWorld. Vue автоматически вставит этот компонент внутрь плейсхолдера (placeholder).*
 
-###src/components/HelloWorld.vue
+### src/components/HelloWorld.vue
 Here's the HelloWorld component, which is included by the App component. This component outputs a set of links, along with a message.\
 *Ниже компонент HelloWorld, который вставлен в компонент App. Этот компонент выводит набор ссылок вместе с сообщением.*
 
